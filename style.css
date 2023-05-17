@@ -13,7 +13,54 @@ p {
     font-size: 20px;
 }
 
-button {
+.actions button {
     color: #fff;
-    background-color: #025157;
+    background-color: #67b54b;
+    padding: 12px 14px 12px 14px;
+    border: none;
+    border-radius: 5px;
 }
+.actions {
+    width: 15%;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .actions a{
+    margin-right: 10px;
+    margin-left: 10px;
+    color:#67b54b;
+  }
+.header{
+    margin: 40px 20px 0;
+    font-size: 0;
+}
+li{
+    display: inline;
+}
+.header > * {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: middle;
+    height: 45px;
+    line-height: 45px;
+    font-family: sans-serif;
+  }
+  .logo > img {
+    width: 15%;
+  }
+  .navbar {
+    width: 70%;
+    text-align: left;
+    color: #025157;
+    font-weight: 500;
+  }
+  .menu-item{
+    margin-right: 25px;
+    margin-left: 25px;
+    display: inline;
+  }
+  .main {
+    margin-top: 140px;
+    text-align: center;
+  }
